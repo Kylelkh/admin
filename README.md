@@ -107,6 +107,9 @@ $ go build
 首次启动需要创建数据库、初始化数据库表。
 ```bash
 $ ./hello -syncdb
+
+在Windows环境下直接执行下面的就行，不需要前面的./
+$ hello -syncdb
 ```
 好了，现在可以通过浏览器地址访问了[`http://localhost:8080/`](http://localhost:8080/)
 
